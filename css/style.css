@@ -1,0 +1,356 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar img {
+    width: 200px;
+    height: 50px;
+}
+
+.navbar ul li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.navbar button {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    margin-left: 20px;
+}
+
+.section1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.blue {
+    background-color: cornflowerblue;
+    height: 60vh;
+    width: 50%;
+    color: white;
+
+}
+
+.blue h1 {
+    margin-top: 100px;
+    font-size: 60px;
+    margin-left: 50px;
+    text-align: center;
+    font-weight: 50;
+
+}
+
+.photo {
+    background-image: url(../images/Makini-Schools-KPSA-Proposed-PHOTO-2-1920w.jpg);
+    height: 60vh;
+    width: 50%;
+    background-size: cover;
+}
+
+.blue button {
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: 100px;
+    margin-left: 40px;
+    background-color: aqua;
+    color: black;
+    border: none;
+
+}
+
+.section2 h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: 100;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.box{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.div1{
+    height: 80px;
+    width: 80px;
+    background-color: orange;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div2{
+    height: 80px;
+    width: 80px;
+    background-color: blue;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div3{
+    height: 80px;
+    width: 80px;
+    background-color:pink;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div4{
+    height: 80px;
+    width: 80px;
+    background-color:red;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div5{
+    height: 80px;
+    width: 80px;
+    background-color:green;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div6{
+    height: 80px;
+    width: 80px;
+    background-color:yellow;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div7{
+    height: 80px;
+    width: 80px;
+    background-color:green;
+    float: left;
+    padding: 50px 50px 50px 50px;
+}
+.div8{
+    height: 80px;
+    width: 80px;
+    float: left;
+    background-image: url(../images/Makini-Schools-KPSA-Proposed-PHOTO-2-1920w.jpg);
+    padding: 50px 50px 50px 50px;
+    background-size: cover;
+}
+.section3{
+    width: 100%;
+    margin-top: 500px;
+    margin-bottom: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4{
+    display: flex;
+}
+.section5{
+display: flex;
+height: 80vh;
+width: 100%;
+margin-top: 50px;
+}
+.image2{
+    background-image: url(../images/Makini-Schools-Form-1-2020-3-1920w.webp);
+    background-size: cover;
+    width: 50%;
+    height: 80vh;
+}
+.yb{
+    width: 50%;
+    background-color: darkgoldenrod;
+}
+.yb h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 30%;
+}
+.yb p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 10px;
+}
+.section6{
+    display: flex;
+    margin-top: 20px;
+}
+.news{
+    width: 50%;
+    height: 80vh;
+    background-color: darkgrey;
+    justify-content: space-evenly;
+}
+.mabox{
+    display: flex;
+    justify-content: space-evenly;
+}
+.news h1 {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.seven{
+    background-image: url(../images/Presidential+award+1-1920w.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+}
+.seven p{
+    color: white;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.cbc{
+    background-image: url(../images/Presidential+award+1-1920w.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+.cbc p{
+    color: white;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.kisumu{
+    background-image: url(../images/Presidential+award+1-1920w.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+}
+.kisumu p{
+    color: white;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.events {
+    width: 50%;
+    height: 80vh;
+    justify-content: space-evenly;
+   
+}
+.events h1{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.mabox2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.national{
+    background-image: url(../images/Presidential+award+1-1920w.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+}
+.national p{
+    color: black;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.Open{
+    background-image: url(../images/Presidential+award+1-1920w.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+}
+.Open p{
+    color: black;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.Cambrige{
+    background-image: url(../images/Presidential+award+1-1920w.jpeg);
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    display: flex;
+}
+.Cambrige p{
+    color: black;
+    font-size: 15px;
+    margin-top: 100px;
+}
+.lm1{
+    padding: 30px 100px ;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+.lm2{
+    padding: 30px 100px ;
+    margin-top: 600px;
+    margin-right: 200px;
+}
+.future{
+    width: 100%;
+    height: 10vh;
+    background-color: cadetblue;
+}
+.future h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top:  30px;
+}
+.aim p{
+    font-size: 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.yt{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.yt iframe{
+    width: 500px;
+}
+.pich{
+    display: grid;
+    margin-top: 50px;
+}
+.pich img{
+    width: 110px;
+    height: 50px;
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.sec2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+   
+}
+.social img{
+    height: 100px;
+    width: 100px;
+}
+.Location{
+    display: flex;
+justify-content: space-between;
+align-items: center;
+}
